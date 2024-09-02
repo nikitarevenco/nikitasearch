@@ -1,11 +1,15 @@
 const instantMacros = {
-  ".gh": "https://www.github.com/",
-  ".yt": "https://www.youtube.com/",
+  ".y": "https://www.github.com/",
+  ".g": "https://www.youtube.com/",
+  ".p": "https://www.pass.proton.me",
+  ".m": "https://www.mail.proton.me",
+  ".d": "https://www.drive.proton.me",
 };
 
 const searchMacros = {
-  yt: "https://www.youtube.com/results?search_query=",
-  so: "https://www.google.com/search?q=site%3Astackoverflow.com+",
+  y: "https://www.youtube.com/results?search_query=",
+  o: "https://www.google.com/search?q=site%3Astackoverflow.com+",
+  r: "https://www.google.com/search?q=site%3Astackoverflow.com+",
 };
 
 const input = document.getElementById("input");
