@@ -1,6 +1,6 @@
 const instantMacros = {
-  ".y": "https://www.github.com/",
-  ".g": "https://www.youtube.com/",
+  ".g": "https://www.github.com/",
+  ".y": "https://www.youtube.com/",
   ".p": "https://www.pass.proton.me",
   ".m": "https://www.mail.proton.me",
   ".d": "https://www.drive.proton.me",
