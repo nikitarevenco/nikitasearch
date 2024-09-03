@@ -16,7 +16,10 @@ const input = document.getElementById("input");
 
 input.focus();
 
-// Instant Macro: type ".gh" and it instantly opens github.com
+const clearInput = () => {
+  input.textContent = "";
+};
+
 const checkInstantMacros = (e) => {
   const query = e.target.value;
   if (query in instantMacros) {
@@ -24,7 +27,6 @@ const checkInstantMacros = (e) => {
   }
 };
 
-// Search macro: type "?yt <query>" to search youtube
 const checkSearchMacros = (e) => {
   const match = e.target.value.match(/\?(.*?)\s+(.*)/);
   if (match) {
